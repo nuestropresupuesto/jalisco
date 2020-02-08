@@ -1,0 +1,187 @@
+div#canvas {
+    width: 100vw;
+    height: 100vh;
+}
+
+#inicio {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 1em;
+    background: #6C786D;
+    border-radius: 1em;
+    box-shadow: 1px 1px 3px gray;
+    color: white;
+    width: 40%;
+    font-size: 1.2em;
+}
+
+#inicio h2 {
+    font-size: 2em;
+}
+img#flechaInicio {
+    width: 38vw;
+    position: absolute;
+    bottom: 2em;
+    right: 5.5em;
+    height: 42vh;
+}
+
+
+#canvas .msg {
+    width: 40vw;
+    left: 30vw;
+    display: block;
+    position: absolute;
+    top: 50vh;
+    transform: translateY(calc(-50% - 1em));
+    text-align: center;
+    color: #BFCA4D;
+}
+#canvas .nota {
+    font-size: .8em;
+    position: absolute;
+    bottom: .2em;
+    left: .2em;
+}
+
+a.btn-floating.btn-large{
+	background: #E8F0E1;
+}
+a.btn-floating.btn-large img {
+    max-width: 73%;
+    max-height: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+ul.leyenda {
+    position: absolute;
+    bottom: 1em;
+    right: 7em;
+    padding: 1em;
+    border: solid 1px #1B1C19;
+    background: white;
+    box-shadow: 1px 1px 1px #DDDDDD;
+    border-radius: .2em;
+    /* cursor: grab; */
+}
+
+ul.leyenda span {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: top;
+    border-radius: 1em;
+    margin-right: .5em;
+    margin-top: .4em;
+}
+
+ul.leyenda li {
+    line-height: 2em;
+}
+
+.slice {
+    cursor: pointer;
+}
+
+.slice .main-arc {
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+.slice .hidden-arc {
+    fill: none;
+}
+
+.slice text {
+    pointer-events: none;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+
+
+#chart.treemap {
+  background: #fff;
+}
+
+#chart.treemap .title {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#chart.treemap text {
+  pointer-events: none;
+}
+
+#chart.treemap .grandparent text {
+}
+
+#chart.treemap rect {
+  fill: none;
+  stroke: #fff;
+}
+
+#chart.treemap rect.parent,
+.grandparent rect {
+  stroke-width: 2px;
+}
+
+#chart.treemap rect.parent {
+    pointer-events: none;
+}
+
+#chart.treemap .grandparent rect {
+  fill: #BFCA4D;
+}
+
+#chart.treemap .grandparent:hover rect {
+  fill: #DFF121;
+}
+
+#chart.treemap .children rect.parent,
+#chart.treemap .grandparent rect {
+  cursor: pointer;
+}
+
+#chart.treemap .children rect.parent {
+  fill: #bbb;
+  fill-opacity: .5;
+}
+
+#chart.treemap .children:hover rect.child {
+  fill: #bbb;
+}
+#chart.treemap text.ptext tspan {
+    font-size: .9em;
+}#chart.treemap text.ptext tspan:last-child {
+    font-size: .8em;
+}
+#chart.treemap g.depth:hover g.children:hover {
+    opacity: 1;
+}
+
+#chart.treemap g.depth:hover g.children {
+    opacity: .3;
+}
+#chart.treemap g.depth:hover g.children text.ptext{
+    opacity: 1 !important;
+}
+#tabla table th {
+    cursor: pointer;
+}
+
+#tabla td.Monto {
+    text-align: right;
+    font-family: monospace;
+}
+
+#versionesPresupuesto td span {
+    font-size: .8em;
+    display: block;
+}

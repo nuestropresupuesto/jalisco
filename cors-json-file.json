@@ -1,0 +1,8 @@
+[
+    {
+      "origin": ["https://nuestropresupuesto:8890","https://www.nuestropresupuesto.mx","https://nuestropresupuesto.mx","https://nuestropresupuesto.appspot.com"],
+      "responseHeader": ["Content-Type"],
+      "method": ["GET", "HEAD", "DELETE"],
+      "maxAgeSeconds": 3600
+    }
+]
