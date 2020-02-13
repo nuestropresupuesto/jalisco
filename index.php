@@ -9,10 +9,10 @@ pageHead($title,$descripcion,$thumb,$tags);
 	 <div class="row">
 		 <img src="imgs/photo_asamblea.jpg" id="hero">
 		 <div class="col s12 verde white-text">
-			<h3>¡Observaciones al Proyecto de Presupuesto 2020!</h3>
-			<p>Conoce las observaciones que realizamos al Proyecto de Presupuesto 2020 del Estado de Jalisco.</p>
+			<h3>Informe final edición 2019</h3>
+			<p>Conoce el informe final sobre todo lo acontecido para la observación del Proyecto de Presupuesto 2020.</p>
 			<p class="center-align">
-				<a href="2019" target="_blank" class="btn waves-effec waves-light gris">¡Ver Reporte!</a>
+				<a href="2019" target="_blank" class="btn waves-effec waves-light gris">¡Ver informe!</a>
 			</p>
 		 </div>
 		 <div class="col s12">
