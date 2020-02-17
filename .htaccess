@@ -1,0 +1,10 @@
+ErrorDocument 404 /404.php
+RewriteEngine On
+RewriteBase /
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.nuestropresupuesto.mx/$1 [R,L]
+RewriteRule ^protocolo$ protocolo.php [QSA,L]
+RewriteRule ^transparencia$ transparencia.php [QSA,L]
+RewriteRule ^background$ background.php [QSA,L]
+RewriteRule ^app$ app.php [QSA,L]
+RewriteRule ^2019$ 2019.php [QSA,L]
